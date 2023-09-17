@@ -13,42 +13,42 @@ int main(void)
 		printf("3) Multiplication\n");
 		printf("4) Division\n");
 		printf("5) Exit Calculator\n\n");
-		printf("Enter choice: ");
+		printf("Enter choice: \n");
 		scanf("%d", &choice);
 
 		switch (choice)
 		{
 			case 1:
-				printf("Enter First Digit");
+				printf("Enter First Digit: ");
 				scanf("%d", &num1);
-				printf("Enter Second Digit");
+				printf("Enter Second Digit: ");
 				scanf("%d", &num2);
 				result = num1 + num2;
-				printf("%d + %d = %d.\n", num1, num2, result);
+				printf("%d + %d = %d.\n\n", num1, num2, result);
 				break;
 			case 2:
-				printf("Enter First Digit");
+				printf("Enter First Digit: ");
 				scanf("%d", &num1);
-                                printf("Enter Second Digit");
+                                printf("Enter Second Digit: ");
 				scanf("%d", &num2);
 				result = num1 - num2;
-				printf("%d - %d = %d.\n", num1, num2, result);
+				printf("%d - %d = %d.\n\n", num1, num2, result);
 				break;
 			case 3:
-				printf("Enter First Digit");
+				printf("Enter First Digit: ");
                                 scanf("%d", &num1);
-                                printf("Enter Second Digit");
+                                printf("Enter Second Digit: ");
                                 scanf("%d", &num2);
 				result = num1 * num2;
-				printf("%d * %d = %d\n",num1, num2, result);
+				printf("%d * %d = %d\n\n",num1, num2, result);
 				break;
 			case 4:
-				printf("Enter First Digit");
+				printf("Enter First Digit: ");
                                 scanf("%d", &num1);
-                                printf("Enter Second Digit");
+                                printf("Enter Second Digit: ");
                                 scanf("%d", &num2);
 				result = num1 / num2;
-				printf("%d / %d = %d.\n",num1, num2, result);
+				printf("%d / %d = %d.\n\n",num1, num2, result);
 				break;
 			case 5:
 				printf("Exiting Calculator...\n\nShut Down\n");
