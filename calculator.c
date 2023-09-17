@@ -12,16 +12,17 @@ int main(void)
 		printf("2) Subtraction\n");
 		printf("3) Multiplication\n");
 		printf("4) Division\n");
-		printf("5) Exit Calculator");
+		printf("5) Exit Calculator\n\n");
+		printf("Enter choice: ");
 		scanf("%d", &choice);
 
 		switch (choice)
 		{
 			case 1:
 				printf("Enter First Digit");
-				scanf("%d", num1);
+				scanf("%d", &num1);
 				printf("Enter Second Digit");
-				scanf("%d", num2);
+				scanf("%d", &num2);
 				result = num1 + num2;
 				printf("%d + %d = %d.\n", num1, num2, result);
 				break;
@@ -29,31 +30,31 @@ int main(void)
 				printf("Enter First Digit");
 				scanf("%d", &num1);
                                 printf("Enter Second Digit");
-				scanf("%d", num2);
+				scanf("%d", &num2);
 				result = num1 - num2;
 				printf("%d - %d = %d.\n", num1, num2, result);
 				break;
 			case 3:
 				printf("Enter First Digit");
-                                scanf("%d", num1);
+                                scanf("%d", &num1);
                                 printf("Enter Second Digit");
-                                scanf("%d", num2);
+                                scanf("%d", &num2);
 				result = num1 * num2;
 				printf("%d * %d = %d\n",num1, num2, result);
 				break;
 			case 4:
 				printf("Enter First Digit");
-                                scanf("%d", num1);
+                                scanf("%d", &num1);
                                 printf("Enter Second Digit");
-                                scanf("%d", num2);
+                                scanf("%d", &num2);
 				result = num1 / num2;
 				printf("%d / %d = %d.\n",num1, num2, result);
 				break;
 			case 5:
-				printf("Exiting Calculator...\n\nShut Down");
+				printf("Exiting Calculator...\n\nShut Down\n");
 				return(0);
 			default:
-				printf("Invalid Parameter!!!");
+				printf("Invalid Parameter!!!\n");
 		}
 	}
 	return (0);
