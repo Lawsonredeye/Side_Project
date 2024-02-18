@@ -1,20 +1,19 @@
 footer {
-    /* bottom: 0;
-    background-color: rgb(40, 56, 102);
-    font-size: medium;
-    font-weight: 100;
-    color: white;
-    text-align: center;
-    padding: 3px;
-    z-index: 10; */
     text-align: center;
     padding: 3px;
     background-color: DarkSalmon;
-    color: white;
 }
+
 body {
-    background-color: gold;
+    background-color: brown;
     margin: 0;
     padding: 0;
+    color: black; 
+}
+
+header {
     color:black;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
 }
