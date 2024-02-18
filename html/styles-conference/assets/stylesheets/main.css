@@ -136,3 +136,9 @@ table {
 #food {
     background: green;
 }
+.hotdog p {
+    background: yellow;
+}
+.hotdog p.mustard {
+    background: aquamarine;
+}
