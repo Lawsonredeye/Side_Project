@@ -28,6 +28,12 @@ The **Data Manipulation Language** is used for manipulation of data which consis
 4. DELETE FROM <TABLE_NAME> WHERE <CONDITION>: used to delete values from table using a specific condition.
 `DELETE FROM law_table WHERE age = 32;`
 
+**BONUS**
+To write a sql script and run from your server follow this steps;
+0. Navigate to the folder of your sql script
+1. `sudo mysql` <!-- login into your sql server -->
+2. `SOURCE <NAME_OF_SQL_SCRIPT.sql>;`
+
 ## Video and Resources
 [Basic MySQL commands](https://youtu.be/cWMCHbxMiMI?si=fNSZfn9RKzee1iim)
 [How To create and deleter User](https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql)
