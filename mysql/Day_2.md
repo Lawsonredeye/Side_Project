@@ -2,7 +2,7 @@
 
 I learnt more about the basic commands on how to create a database, table and how to revoke access as well as grant access to a user specifying what kind of access the user is able to use in a specific database or table.
 
-The Data Control Language is extremely powerful command in which Database admin can use. The DCL is best for controlling who has certain previleges to a database to prevent data theft, deleting of the entire database by a novice.
+The **Data Control Language** is extremely powerful command in which Database admin can use. The DCL is best for controlling who has certain previleges to a database to prevent data theft, deleting of the entire database by a novice.
 
 To use the DCL command like GRANT and REVOKE you can follow this syntax;
 1. create the user
@@ -16,7 +16,7 @@ CREATE USER <NAME>@<IP_ADDRESS> IDENTIFIED BY <PASSWORD>
 3. GRANT PRIVILEGE ON <DATABASE_NAME.TABLE_NAME>TO <USER_@_IP_ADDRESS>
 `GRANT SELECT ON my_data_base.school_table TO 'redeye'@'localhost';`
 
-The **DML** is used for manipulation of data which consist of the Select, Insert, Update and Delete command which is used to alter the data in a database table easily.
+The **Data Manipulation Language** is used for manipulation of data which consist of the Select, Insert, Update and Delete command which is used to alter the data in a database table easily.
 
 1. `SELECT * FROM <TABLE_NAME>;` : prints all details in a table
 
