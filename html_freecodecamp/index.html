@@ -12,25 +12,27 @@
 </head>
 
 <body>
-    <h1>My Goals For the Year</h1>
+    <header>
+        <h1>My Goals For the Year</h1>
 
-    <hr>
-
-    <nav>
-        <ul>
-            <li>
-                <a href="#html">Learning HTML</a>
-            </li>
-            <li>
-                <a href="#vacation">Planning a Vacation</a>
-            </li>
-        </ul>
-    </nav>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#html">Learning HTML</a>
+                </li>
+                <li>
+                    <a href="#vacation">Planning a Vacation</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     
     <hr>
-    <section id="html">
+<main>
+    <article id="html">
     <h2>I Am Ready To Learn HTML</h2>
     <p>This is my first web page.</p>
+    <section>
     <img src="img/html_favicon.png" alt="HTML5 LOGO" title="I am learning html5" width="200" height="200">
 
     <figure>
@@ -39,7 +41,7 @@
             <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code>
         </p>
     </figure>
-    
+    </section>
     <h3>Places I'd like to visit</h3>
     <ul>
          <!-- how to do lazy loading for performance -->
@@ -62,13 +64,23 @@
         Off Oba Market<br>
         Benin City<br>
     </address>
+    <aside>
+        <details>
+            <summary>
+                guess the number of hours i code per day
+            </summary>
+            <p>
+                I start coding at <time datetime="08:00">8 am</time> and i write codes for <time datetime="PT3H">3 hours</time> every morning.
+            </p>
+        </details>
+    </aside>
     <figure>
     <img src="img/caribbean_sea.jpg" alt="cancun vacation" title="trip to cancun at 6pm!" width="400" height="400" loading="lazy">
     <figcaption>
         A carribean vacation image
     </figcaption>
     </figure>
-    </section>
+    </article>
 
     <hr>
     
@@ -110,12 +122,16 @@
         <dd>These are also cold.</dd>
     </dl>
     </section>
-    
+</main>
     <hr>
-    &lt;&lt;&copy;<a href="about.html">Lawson Redeye</a>&gt;&gt;
-    <p>
-        <a href="#">Back to Top</a>
-    </p>
+    <footer>
+        <p>
+            &lt;&lt;&copy;<a href="about.html">Lawson Redeye</a>&gt;&gt;
+        </p>
+        <p>
+            <a href="#">Back to Top</a>
+        </p>
+</footer>
 </body>
 
 </html>
