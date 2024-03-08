@@ -1,24 +1,15 @@
 html {
-	background-color: aquamarine;
-	font-size: medium;
-	font-family: 'Courier New', Courier, monospace;
+	font-size: 20px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background-color: rgb(0, 0, 0);
 }
-
-header{
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	border: 1px solid #eee;
-	text-align: center;
-}
-
 h1, h2 {
+	border: 2px solid #333;
 	text-align: center;
-	color: deeppink;
+	color: green;
+	opacity: 0.5;
 }
 
-.learn{
-	background-color: black;
-	color: azure;
-	font-size: 12px;
-	font-family: sans-serif;
-	text-align: center;
+p, hr {
+	color: #f00;
 }

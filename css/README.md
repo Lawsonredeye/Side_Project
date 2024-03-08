@@ -1,6 +1,7 @@
 # Learning CSS with W3SCHOOL
 
-Selectors:
+## Selectors:
+
 these are used for finding and styling html elements with special properties and values.
 
 it works in this syntax:
@@ -41,4 +42,12 @@ This would make each elements to have the same property and value even tho the e
 
 ## Types of Selectors
 
-1. ID selector: uses the id attributes to target html element which has the pound symbol
+1. ID selector: uses the id attributes to target html element which has the pound (#) symbol
+2. class selector: this targets element that has the class attributes and its denoted by the dot (.) symbol
+3. universal selector: This acts as a wildcard to target every HTML elements and its denoted by the asterick (\*) symbol
+
+## Resources
+
+Here are the resources used for learning css
+
+1. [w3schools](https://www.w3schools.com/css)
